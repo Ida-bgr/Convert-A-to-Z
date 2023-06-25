@@ -1,9 +1,9 @@
 function Converter() {
-    let text = "";
+    let text = "AAA";
 
     let newString = text.replaceAll("A", "Z")
     
-    console.log(newString);
+    return newString;
 }
     
-Converter();
+console.log(Converter());
